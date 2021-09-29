@@ -135,6 +135,16 @@ static const struct camera_common_colorfmt camera_common_color_fmts[] = {
 		V4L2_COLORSPACE_SRGB,
 		V4L2_PIX_FMT_XRGGB10P,
 	},
+	{
+		MEDIA_BUS_FMT_Y10_1X10,
+		V4L2_COLORSPACE_SRGB,
+		V4L2_PIX_FMT_Y10,
+	},
+	{
+		MEDIA_BUS_FMT_Y8_1X8,
+		V4L2_COLORSPACE_SRGB,
+		V4L2_PIX_FMT_GREY,
+	},
 };
 
 struct camera_common_csi_io_pad_ctx {
